@@ -1,0 +1,6 @@
+.daily-card{
+    overflow: scroll;
+}
+.daily-card::-webkit-scrollbar{
+    display: none;
+}

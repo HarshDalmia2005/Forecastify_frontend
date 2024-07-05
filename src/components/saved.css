@@ -1,0 +1,7 @@
+.location-card{
+    overflow: scroll;
+}
+
+.location-card::-webkit-scrollbar{
+    display: none;
+}

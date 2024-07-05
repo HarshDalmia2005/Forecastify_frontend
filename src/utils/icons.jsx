@@ -1,0 +1,14 @@
+export const search=<i className="fa-solid fa-magnifying-glass"></i>
+export const temperature=<i class="fa-solid fa-temperature-three-quarters"></i>
+export const winds=<i class="fa-solid fa-wind"></i>
+export const rain=<i class="fa-solid fa-cloud-showers-heavy"></i>
+export const humid=<i class="fa-solid fa-droplet"></i>
+export const weather=<i class="fa-solid fa-cloud"></i>
+export const uv=<i class="fa-solid fa-sun"></i>
+export const wrong=<i class="fa-solid fa-circle-xmark"></i>
+export const username=<i class="fa-solid fa-user"></i>
+export const password=<i class="fa-solid fa-lock"></i>
+export const email=<i class="fa-solid fa-envelope"></i>
+export const umbrella=<i class="fa-solid fa-umbrella"></i>
+export const trash=<i class="fa-solid fa-trash"></i>
+export const save=<i class="fa-solid fa-floppy-disk"></i>

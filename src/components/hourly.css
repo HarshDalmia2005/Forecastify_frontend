@@ -1,0 +1,7 @@
+.weather-grid{
+    overflow: scroll;
+}
+.weather-grid::-webkit-scrollbar{
+    display: none;
+  }
+

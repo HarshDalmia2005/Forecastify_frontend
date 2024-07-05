@@ -1,0 +1,13 @@
+.header{
+  background-image: url('background.jpg');
+  background-size: cover; /* Ensure the image covers the entire area */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  height: 100vh; /* Full viewport height */
+  width: 100%; /* Full width */
+  overflow: scroll;
+}
+
+.header::-webkit-scrollbar {
+  display: none;
+}
