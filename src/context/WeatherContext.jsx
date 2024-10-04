@@ -20,7 +20,7 @@ export const WeatherProvider = ({ children }) => {
     const [success, setsuccess] = useState('')
     const [Locations, setLocations] = useState([])
     const [deleted, setdeleted] = useState('')
-    const URL = "http://localhost:3000/locations"
+    const URL = "https://forecastify-backend-n194.onrender.com/locations"
 
     const fetchLocation = async () => {
         try {
@@ -38,7 +38,7 @@ export const WeatherProvider = ({ children }) => {
     const fetchWeatherData = async (location) => {
         try {
 
-            const apiKey = process.env.apiKey;
+            const apiKey = 'ec9b37b5643b4a4c80580612240207';
             const response = await axios.get('http://api.weatherapi.com/v1/forecast.json', {
                 params: {
                     key: apiKey, // Replace with your WeatherAPI key
@@ -74,7 +74,7 @@ export const WeatherProvider = ({ children }) => {
     const fetchHourly = async (location) => {
         try {
 
-            const apiKey = process.env.apiKey;
+            const apiKey = 'ec9b37b5643b4a4c80580612240207';
             const response = await axios.get('http://api.weatherapi.com/v1/forecast.json', {
                 params: {
                     key: apiKey,
@@ -99,7 +99,7 @@ export const WeatherProvider = ({ children }) => {
 
     const fetchDaily = async (location) => {
         try {
-            const apiKey = process.env.apiKey;
+            const apiKey = 'ec9b37b5643b4a4c80580612240207';
             const response = await axios.get('http://api.weatherapi.com/v1/forecast.json', {
                 params: {
                     key: apiKey, // Replace with your WeatherAPI key
@@ -120,7 +120,7 @@ export const WeatherProvider = ({ children }) => {
     const sendWeatherData = async (location) => {
         try {
 
-            const apiKey = process.env.apiKey;
+            const apiKey = 'ec9b37b5643b4a4c80580612240207';
 
             const response = await axios.get('http://api.weatherapi.com/v1/forecast.json', {
                 params: {

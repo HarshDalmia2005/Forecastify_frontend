@@ -8,6 +8,6 @@
   overflow: scroll;
 }
 
-.header::-webkit-scrollbar {
+::-webkit-scrollbar {
   display: none;
 }
